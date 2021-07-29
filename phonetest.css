@@ -1,0 +1,95 @@
+
+#changeSource{
+width: 200px;
+height:auto;
+}
+#changeSource:hover{
+content: url('C:/Users/14802/Desktop/Per Scholas/helloevil.jpg');
+width: 200px;
+height: 112px;
+}
+body{
+background-color: lightblue;
+font-size: 60px;
+}
+.column{
+background-color: purple;
+float: left;
+width: 25%;
+}
+.textColor{
+text-shadow:
+-1.5px -1.5px 0 #000,
+1.5px -1.5px 0 #000,
+-1.5px 1.5px 0 #000,
+1.5px 1.5px 0 #000;
+
+color:rgb(67, 185, 231);
+}
+
+@media (min-width:50px) and (max-width: 319px){
+body{
+    background-color: pink;
+    font-size: 10px;
+}
+.column{
+background-color: purple;
+float: left;
+width: 100%;
+}
+}
+
+@media (min-width:320px) and (max-width: 479px){
+body{
+    background-color: yellow;
+    font-size: 15px;
+}
+.column{
+background-color: purple;
+float: left;
+width: 100%;
+}
+}
+
+@media (min-width:480px) and (max-width: 768px){
+body{
+    background-color: red;
+    font-size: 20px;
+}
+
+.column{
+background-color: purple;
+float: left;
+width: 50%;
+}
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+body{
+    background-color: green;
+    font-size: 30px;
+}
+.column{
+background-color: purple;
+float: left;
+width: 50%;
+}
+}
+@media (min-width:1025px) and (max-width: 1600px){
+body{
+    background-color: lightblue;
+    font-size: 40px;
+}
+
+.column{
+background-color: purple;
+float: left;
+width: 25%;
+}
+}
+div {border: 1px solid #000;}
+.heading{
+background-image: url("marlin.jpg");
+background-size: 220px;
+
+}

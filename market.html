@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="js\bootstrap.min.js"></script>
+        <script type="text/javascript" src="market.js"></script>
+        <style type="text/css">
+        
+            body{
+                background-color: lightblue;
+                font-size: 60px;
+            }
+            .column{
+                background-color: #13485D;
+                float: left;
+                width: 25%;
+            }
+            .textColor{
+                text-shadow:
+                -1.5px -1.5px 0 #000,
+                1.5px -1.5px 0 #000,
+                -1.5px 1.5px 0 #000,
+                1.5px 1.5px 0 #000;
+    
+                color:rgb(67, 185, 231);
+            }
+    
+            @media (min-width:50px) and (max-width: 319px){
+                body{
+                    background-color: pink;
+                    font-size: 10px;
+                }
+                .column{
+                background-color: #13485D;
+                float: left;
+                width: 100%;
+                }
+            }
+    
+            @media (min-width:320px) and (max-width: 479px){
+                body{
+                    background-color: yellow;
+                    font-size: 15px;
+                }
+                .column{
+                background-color: #13485D;
+                float: left;
+                width: 100%;
+                }
+            }
+    
+            @media (min-width:480px) and (max-width: 768px){
+                body{
+                    background-color: red;
+                    font-size: 20px;
+                }
+    
+                .column{
+                background-color: #13485D;
+                float: left;
+                width: 50%;
+                }
+            }
+    
+            @media (min-width:769px) and (max-width: 1024px){
+                body{
+                    background-color: green;
+                    font-size: 30px;
+                }
+                .column{
+                background-color: #13485D;
+                float: left;
+                width: 50%;
+                }
+            }
+            @media (min-width:1025px) and (max-width: 1600px){
+                body{
+                    background-color: lightblue;
+                    font-size: 40px;
+                }
+    
+                .column{
+                background-color: #13485D;
+                float: left;
+                width: 25%;
+                }
+            }
+
+            div {border: 1px solid #000;}
+        .heading{
+            background-image: url("marlin.jpg");
+            background-size: 220px;
+            
+        }
+
+        .pSize{
+            font-size: 22px;
+            color: #13485D;
+        }
+        .hColor{
+            color: #13485D;
+        }
+            </style>
+
+    </head>
+    <title>Shopping</title>
+ 
+    <p style="font-size: 20px;" > <a href="formval.html">Create Account</a> </p>
+
+
+    <table>
+        <td>
+
+            <tr>
+                <h1 style="color: #13485D;">Welcome to Socktacular <img src="https://media4.giphy.com/media/3ohzdMK66N8Qruybmg/giphy.gif" width="200px"; style="float: right; margin: 0 15px 0 0;">
+                </h1>
+
+            </tr>
+
+        </td>
+    </table>
+
+    <body>
+        <form>
+        <select name="sockdropdown" id="sockdropdown" class="" accesskey="target">
+            <option value="None">Select Sock Source</option>
+            <option value="originaloptions.html">Our Originals<USA/option>
+            <option value="vendoroptions.html">Custom Options</option>
+            <option value="tradingcenter.html">Trading Center</option>
+            <option value="sellsocks.html">Sell Your Socks</option>
+            </select>
+            <input type = button value="go" onclick="goToNewPage()"/>
+        </form>
+    </body>
+
+    <body>
+
+        <h3>We are a up and coming website, we love collecting socks, and thought it would be fun to start a community for buying, trading, and even selling socks!</h3>
+        
+        <header>
+            <h2>Popular Vendors</h2>
+        </header>
+        
+        <section>
+
+        <article>
+
+            <h1 class="hColor" style="margin-bottom: 0px;"><a href="#">Michael Scott</a></h1>
+            <img src="MichaelOffice.jpg" style="height:150px; width: auto; border-radius: 50%; border: 5px solid #FEDE00;" alt="This is a small profile image of Digital Ocean’s mascot, a blue smiling shark.">
+
+            <p class="pSize">Michael Gary Scott is our employee of the monnth, he has created the most sock designs this week, with some of the highest rated reviews.</p>
+        </article>
+
+        <article>
+
+            <h1 class="hColor" style="margin-bottom: 0px;"><a href="#">Dwight Schrute</a></h1>
+            <img src="DwightOffice.jpg" style="height:150px; width: auto; border-radius: 50%; border: 5px solid #FEDE00;" alt="This is a small profile image of Digital Ocean’s mascot, a blue smiling shark.">
+
+            <p class="pSize">Dwight Kurt Schrute is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        </article>
+
+        <article>
+
+            <h1 class="hColor" style="margin-bottom: 0px;"><a href="#">Jim  Halpert</a></h1>
+            <img src="JimOffice.jpg" style="height:150px; width: auto; border-radius: 50%; border: 5px solid #FEDE00;" alt="This is a small profile image of Digital Ocean’s mascot, a blue smiling shark.">
+            <p class="pSize">Jim is our top sales representative, getting the most sales country-wide, and even making an impact in the Canada scene.</p>
+        </article>
+
+
+        </section>
+        
+        <footer>
+        <p style="font-size: 20px; text-align: right;"> <a href="phonetest.html">Owner's Resume</a>  </p>
+
+        </footer>
+        
+        </body>
+</html>
